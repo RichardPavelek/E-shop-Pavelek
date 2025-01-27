@@ -1,69 +1,12 @@
-/* Základní úpravy pro navbar */
+/* Úpravy pro navbar */
 .navbar {
-    background-color: #333; /* tmavší pozadí */
-  }
-  
-  .navbar-brand {
-    color: #fff !important; /* Bílé písmo pro značku navbar */
-    font-weight: bold; /* Tučné písmo pro značku */
-  }
-  
-  .navbar-nav .nav-item .nav-link {
-    color: #ccc; /* Světlejší text pro odkazy */
-  }
-  
-  .navbar-nav .nav-item .nav-link:hover {
-    color: #fff; /* Bílé písmo při najetí myší */
-    background-color: #444; /* Tmavší pozadí při najetí */
-  }
-  
-  .navbar-nav .nav-item.active .nav-link {
-    color: #f8f9fa; /* Aktivní odkaz v bílém písmu */
-    background-color: #007bff; /* Pozadí pro aktivní položku */
-  }
-  
-  .navbar-toggler {
-    border-color: #fff; /* Bílá barva pro ikonu hamburger menu */
-  }
-  
-  .navbar-toggler-icon {
-    background-color: #fff; /* Bílé ikony v hamburger menu */
-  }
-  
-  .dropdown-menu {
-    background-color: #333; /* Tmavé pozadí pro dropdown */
-    border: none; /* Žádné ohraničení pro dropdown */
-  }
-  
-  .dropdown-item {
-    color: #ccc; /* Světlejší text pro položky v dropdown */
-  }
-  
-  .dropdown-item:hover {
-    color: #fff; /* Bílé písmo při najetí myší na položku */
-    background-color: #555; /* Tmavší pozadí při najetí na položku */
-  }
-  
-  /* Styl pro vyhledávací formulář */
-  .form-inline .form-control {
-    border-radius: 20px; /* Zaoblené rohy pro vyhledávací input */
-    border: 2px solid #007bff; /* Modrá barva okraje */
-  }
-  
-  .form-inline .btn {
-    border-radius: 20px; /* Zaoblené rohy pro tlačítko */
-    background-color: #007bff; /* Modré pozadí pro tlačítko */
-    color: #fff; /* Bílé písmo pro tlačítko */
-  }
-  
-  .form-inline .btn:hover {
-    background-color: #0056b3; /* Tmavší modrá při najetí myší na tlačítko */
-  }
-  
-  /* Ochrana proti neaktivním odkazům */
-  .nav-item .nav-link.disabled {
-    color: #6c757d; /* Šedá barva pro neaktivní odkazy */
-    pointer-events: none; /* Zakáže interakci s neaktivními odkazy */
-    background-color: transparent; /* Průhledné pozadí pro neaktivní odkazy */
-  }
-  
+}
+
+.nav-link {
+    color: #fff; /* Tarva textu */
+    font-weight: bold; /* Tučné písmo */
+}
+
+.nav-link:hover {
+    color: #099721; /* Změna barvy textu při přejetí */
+}
