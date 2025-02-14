@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .nav-link {
@@ -114,3 +114,17 @@ h2{
     margin-top: 10px;
     margin-bottom: 15px;
 }
+
+.onas ul{
+    list-style: none;
+        padding: 0;
+        margin: 0;
+    text-align: center;
+}
+
+#h3{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
